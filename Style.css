@@ -1,0 +1,110 @@
+body{
+    margin: 40px;
+    background-image: url("4.jpg");
+}
+.name{
+    width: 400px;
+    margin: auto;
+    font-family: Luxurious, serif;
+    font-size: 50px;
+    text-align: center;
+    background: #778899;
+    background-origin: content-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+.name2{
+    width: 200px;
+    text-align: center;
+    margin: 25px 600px;
+    font-family: Luxurious, serif;
+    font-size: 30px;
+    background: #778899;
+    background-origin: content-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+.navbar {
+    width: 900px;
+    margin: 25px 200px;
+    padding:25px 50px;
+    background-color: #708090;
+    border-radius: 10px;
+}
+.navbar a {
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background-color:#d5e8e8;
+    color: black;
+}
+.container{
+    display: flex;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.services1{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    display: inline-block;
+    color: black;
+    border: 5px solid #1a394f;
+}
+.img1{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.haircuts{
+    font-size: 20px;
+    text-align: center;
+
+}
+.services2{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin: 30px  auto;
+    display: inline-block;
+    border: 5px solid #1a394f;
+}
+.img2{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.modeling{
+     font-size: 20px;
+    text-align: center;
+}
+.services3{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    display: inline-block;
+    border: 5px solid #1a394f;
+}
+.img3{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.skincare{
+     font-size: 20px;
+    text-align: center;
+}
