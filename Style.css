@@ -1,11 +1,9 @@
 body{
-    margin: 40px;
     background-image: url("4.jpg");
 }
 .name{
     width: 400px;
-    margin: auto;
-    font-family: Luxurious, serif;
+    margin: 0 auto;
     font-size: 50px;
     text-align: center;
     background: #778899;
@@ -16,8 +14,7 @@ body{
 .name2{
     width: 200px;
     text-align: center;
-    margin: auto;
-    font-family: Luxurious, serif;
+    margin: 0 auto;
     font-size: 30px;
     background: #778899;
     background-origin: content-box;
