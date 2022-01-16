@@ -1,7 +1,7 @@
 body{
     margin: 40px;
-    font-family: Monoserrat;
-    background-image: url("6.jpg");
+    font-family: Monoserrat, serif;
+    background-image: url("../image1/6.jpg");
 }
 
 .navbar-nav{
@@ -41,7 +41,6 @@ body{
    margin: 25px 25px auto;
    background-color:#fff;
    border-radius: 10px;
-   border-style: #000;
 }
 .img_2{
     display: block;
@@ -78,7 +77,7 @@ body{
 }
 .img{
     margin: 100px auto;
-    background-image: url(5.jpg);
+    background-image: url(../image1/5.jpg);
     height: 500px;
     float: left;
 
