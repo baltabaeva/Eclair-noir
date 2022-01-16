@@ -77,7 +77,7 @@ body{
 }
 .img{
     margin: 100px auto;
-    background-image: url(5.jpg);
+    background-image: url("5.jpg");
     height: 500px;
     float: left;
 
