@@ -2,30 +2,33 @@ body{
  background-image:url("6.jpg");
  font-family: Monoserrat, serif;
 }
-.navbar-nav{
-    text-align: right;
-}
+
 .navbar-header{
     font-size: 10px;
 }
+
 .navbar-brand{
     font-size: 30px;
 }
+
 .nav-item{
     padding: 0 5px;
 }
+
 .service {
  font-size: 50px;
 }
+
 .form-check{
  margin: 25px;
 }
+
 .container{
  margin: 100px;
- height: 500px;
  color: #fff;
  font-size: 20px;
 }
+
 .btn{
  margin: 15px 25px;
  width: 100px;

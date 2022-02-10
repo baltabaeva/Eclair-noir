@@ -1,68 +1,78 @@
 body{
+
     margin: 40px;
     font-family: Monoserrat, serif;
     background-image: url("6.jpg");
+
 }
 
-.navbar-nav{
-    text-align: right;
-}
 .navbar-header{
+
     font-size: 10px;
 }
 .navbar-brand{
+
     font-size: 30px;
 }
 .nav-item{
+
     padding: 0 5px;
 }
 .container{
+
     display: flex;
     margin: 40px 80px auto 90px;
     color: #000;
     text-align: center;
+    
 
 }
 .card_1{
-   height: 650px;
+
+   width: 18rem;
+   height: 700px;
    margin: 25px 25px auto;
    background-color:#fff;
    border-radius: 10px;
 }
 .img_1{
-    display: block;
+
     width: 200px;
     height: 200px;
     margin: 25px auto;
     border-radius: 10px;
 }
 .card_2{
-   height: 650px;
+   width: 18rem;
+   height: 700px;
    margin: 25px 25px auto;
    background-color:#fff;
    border-radius: 10px;
 }
 .img_2{
-    display: block;
+
     width: 200px;
     height: 200px;
     margin: 25px auto;
     border-radius: 10px;
 }
 .card_3{
-   height: 650px;
+
+   width: 18rem;
+   height: 700px;
    margin: 25px 25px auto;
    background-color: #fff;
    border-radius: 10px;
 }
 .img_3{
-    display: block;
+
     width: 200px;
     height: 200px;
     margin: 25px auto;
     border-radius: 10px;
 }
 .table{
+
     position: relative;
     top: 50px;
     left: 50px;
@@ -71,28 +81,25 @@ body{
     color: #fff;
     font-size: 17px;
 
-}
-.btn{
-    margin: 50px 25px auto;
+
 }
 .img{
+
     margin: 100px auto;
     background-image: url("5.jpg");
     height: 500px;
     float: left;
-
 }
 .button{
+
     position: relative;
     top: 50px;
     margin: 25px 50px 50px;
     height: 50px;
     width: 150px;
-    display: inline-block;
     background-color: #000;
     color: #fff;
     border-radius: 3px;
-    text-decoration: none;
 }
 .find{
     text-align: center;
