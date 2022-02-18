@@ -7,11 +7,15 @@
   <link rel="stylesheet" href="OnlineAppointment.css">
   <title>Online Appointment</title>
 </head>
+
 <body>
+ <div class="navbar-title">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Éclair noir</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
+  </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -27,39 +31,139 @@
     </div>
   </div>
 </nav>
-<div class="container">
-<h1 class="service">Choose a service:</h1>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-  <label class="form-check-label" for="flexRadioDefault1">
-    Men's haircut 6000tg
-  </label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
-    Tomping 2500tg
-  </label>
+
+
+<div class="form" >
+
+  <div class="row">
+  <div class="col-sm">
+
+  <h1 class="title">Online Appointment</h1>
+<div class="app">
+  <p class="enter_name" >Please choose a service:</p>
+  <select id="mySelect" class="select">
+  <option>Men's haircut</option>
+  <option>Tomping</option>
+  <option>Beard/mustache cutting</option>
+  <option>Haircut with a machine</option>
+  <option>Children's haircut</option>
+  </select>
+    <p class="enter_name">Please enter your name:</p>
+    <input type="text" name="n" id = "getName">
+    <p class="enter_name">Please enter your phone:</p>
+    <input type="text" name="n" id = "getphone">
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
-    Beard/mustache cutting 2500tg
-  </label>
+<audio id="audio" src="audio.mp3"></audio>
+<div class="b1"><button type="button" id="button" class="btn_1 btn-dark">Next</button></div>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
-    Haircut with a machine 3000tg
-  </label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
-    Children's haircut 4000tg
-  </label>
 </div>
-<button type="button" class="btn btn-dark">Next</button>
-</div>
+
+
+
+<div class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card ">
+          <img src="r_1.gif" class="cards" alt="img_1">
+          <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Daily Shampoo</h5>
+            <h4 style="color: white;">5000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card ">
+          <img src="r_9.gif" class="cards" alt="img_9">
+          <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Extra Clean Shampoo</h5>
+            <h4 style="color: white;">5000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_2.gif" class="cards" alt="img_2">
+          <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Daily Shampoo</h5>
+            <h4 style="color: white;">5000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_5.jpg" class="cards" alt="img_5">
+          <div class="card-body text-white">
+            <h5 class="card-title text-white">Redken Brews Extra Clean Gel</h5>
+            <h4 style="color: white;">5000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_3.gif" class="cards" alt="img_3">
+          <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Work Hard Molding</h5>
+            <h4 style="color: white;">4500 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_4.gif" class="cards" alt="img_4">
+          <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Wax Pomade</h5>
+            <h4 style="color: white;">4000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_6.jpg" class="cards" alt="img_6">
+          <div class="card-body text-white">
+            <h5 class="card-title text-white">Redken Brews After Shave Balm</h5>
+            <h4 style="color: white;">4500 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_7.gif" class="cards" alt="img_7">
+            <div class="card-body">
+            <h5 class="card-title text-white">Redken Brews Shave Cream</h5>
+            <h4 style="color: white;">6000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="card">
+          <img src="r_8.jpg" class="cards" alt="img_8">
+          <div class="card-body text-white">
+            <h5 class="card-title text-white">Redken Brews Shave Foam</h5>
+            <h4 style="color: white;">5000 tg</h4><div class="a1">
+            <a href="#" class="btn btn-dark">Buy</a></div>
+          </div>
+        </div>
+      </div>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>

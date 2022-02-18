@@ -12,7 +12,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Éclair noir</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
+  </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -28,6 +30,7 @@
     </div>
   </div>
 </nav>
+
 <div class="container" >
   <img src="7.jpg" alt="icon">
   <form>
@@ -36,26 +39,29 @@
     </p>
     <div class="dws-input">
       <label>
-      <input type="text" name ="username" placeholder="Enter your username">
+      <input type="text" id = "username" name ="username" placeholder="Enter your username">
       </label>
     </div>
 
     <div class="dws-input">
       <label>
-      <input type="password" name ="password" placeholder="Enter the password">
+      <input type="password" id="password" name ="password" placeholder="Enter the password">
       </label>
     </div>
 
-      <input class="dws-submit" type="submit" name ="submit" value="Enter">
-    <br />
-    <a href="#">Forgot password?</a>
+      <div class="b1"><button type="button" id="login" class="btn_1 btn-dark">Enter</button></div>
+     
     <br />
     <a href="Registration.html">Create new account</a>
+    <br />
+    <a id="fpass" style="color: #ffffff" >Forgot password?</a>
+    
   </form>
   <div class="social">
     <i class="fa-brands fa-instagram"></i>
     <i class="fa-solid fa-envelope"></i>
   </div>
 </div>
+<script src="login.js"></script>
 </body>
 </html>
