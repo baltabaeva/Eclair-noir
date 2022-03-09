@@ -37,10 +37,10 @@
   <div class="row">
     <div class="col-sm">
     <div class="card_1">
-    <img src="2.jpg" class="img_1" alt="Haircuts">
+    <img src="2.jpg" id="img1" class="img_1" alt="Haircuts">
     <div class="card-body">
     <h4 class="card-title">Haircuts</h4>
-    <p class="card-text">Hairstyles for men have a great variety. By choosing the right haircut, everyone can reflect their lifestyle and character, because a stylish haircut is one of the key parts of the daily image, along with a suit to fit, quality shoes and perfume fragrance.People around you always pay attention to your hair - when they look at you, they see your face in the first place, and how it is emphasized, so it is important to devote enough time and attention to your haircut and to visit a haircut and shave salon regularly.</p>
+    <p class="card-text_1">Hairstyles for men have a great variety. By choosing the right haircut, everyone can reflect their lifestyle and character, because a stylish haircut is one of the key parts of the daily image, along with a suit to fit, quality shoes and perfume fragrance.People around you always pay attention to your hair - when they look at you, they see your face in the first place, and how it is emphasized, so it is important to devote enough time and attention to your haircut and to visit a haircut and shave salon regularly.</p>
   </div>
   </div>
 </div>
@@ -49,7 +49,7 @@
   <img src="1.jpg" class="img_2" alt="Beard modeling">
   <div class="card-body">
     <h4 class="card-title">Beard modeling</h4>
-    <p class="card-text">The beard and mustache have been an important feature for men since ancient times. And if you think that "letting go of the beard" or "grow a mustache" means just letting the facial hair grow as it wants, you are very wrong. They need special care, both daily and professional.</p>
+    <p class="card-text_2">The beard and mustache have been an important feature for men since ancient times. And if you think that "letting go of the beard" or "grow a mustache" means just letting the facial hair grow as it wants, you are very wrong. They need special care, both daily and professional.</p>
   </div>
 </div>
 </div>
@@ -58,7 +58,7 @@
   <img src="3.jpg" class="img_3" alt="Modeling">
   <div class="card-body">
     <h4 class="card-title">Modeling</h4>
-    <p class="card-text">The beard and mustache have been an important feature for men since ancient times. And if you think that "letting go of the beard" or "grow a mustache" means just letting the facial hair grow as it wants, you are very wrong. They need special care, both daily and professional.</p>
+    <p class="card-text_3">The beard and mustache have been an important feature for men since ancient times. And if you think that "letting go of the beard" or "grow a mustache" means just letting the facial hair grow as it wants, you are very wrong. They need special care, both daily and professional.</p>
   </div>
 </div>
 </div>
@@ -111,9 +111,72 @@
   <h1 class="text">How to find us?</h1>
   <p>Nur-Sultan City Bokeyhan 60a/1</p>
   <p>8(776)-105-04-37</p>
+   <div class="star_rating">
+          <b class = "howWas" id="hrating" >Rating of our barbershop: 9.3</b>
+         <br><button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button> 
+         <button class="star">&#9734</button>
+         <b class="current_rating" style="color: black;">0 of 10</b></div>
+         
   </div>
 </div>
 </div>
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(".card-text_1").hide();
+ $(".img_1").mouseover(function(){
+       $(".card-text_1").show();
+       $(".card_1").css({"height": "700px" });
+      });
+  $(".img_1").mouseout(function(){
+       $(".card-text_1").hide();
+       $(".card_1").css({"height": "340px" });
+      });
+$(".card-text_2").hide();
+ $(".img_2").mouseover(function(){
+       $(".card-text_2").show();
+       $(".card_2").css({"height": "700px" });
+      });
+  $(".img_2").mouseout(function(){
+       $(".card-text_2").hide();
+       $(".card_2").css({"height": "340px" });
+      });
+  $(".card-text_3").hide();
+ $(".img_3").mouseover(function(){
+       $(".card-text_3").show();
+       $(".card_3").css({"height": "700px" });
+      });
+  $(".img_3").mouseout(function(){
+       $(".card-text_3").hide();
+       $(".card_3").css({"height": "340px" });
+      });
+</script>
+<script>
+const allStar = document.querySelectorAll('.star');
+let current_rating = document.querySelector('.current_rating');
+allStar.forEach((star, i) =>{
+    star.onclick = function(){
+         let current_star_level = i+1; 
+         current_rating.innerText = `${current_star_level} of 10`;
+         allStar.forEach( (star, j) =>{
+             if(current_star_level >= j+1){
+             star.innerHTML ='&#9733';}
+             else{
+                star.innerHTML ='&#9734';
+             }
+              document.getElementById('hrating').innerHTML = `Rating of our barbershop : ${((current_star_level + (9.3*20))/21).toFixed(2)}` ;
+    })
+}
+})
+</script>
 <script src="script.js"></script>
  </body>
  </html>

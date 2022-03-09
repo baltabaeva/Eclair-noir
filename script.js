@@ -6,8 +6,8 @@ function appointment() {
 
    var audio = new Audio('audio.mp3');
 audio.play();
-	let select = document.getElementById("mySelect").value;    
-	let name = document.getElementById("getName").value;
+   let select = document.getElementById("mySelect").value;    
+   let name = document.getElementById("getName").value;
     let phone = document.getElementById("getphone").value;
 
    if (name == 0 || phone == 0) {
@@ -22,12 +22,13 @@ audio.play();
     let time = ["14:00 p.m", "15:00 p.m", "16:00 p.m", "17:00 p.m", "18:00 p.m", "19:00 p.m"];
     let randomTime = time[Math.floor(Math.random() * time.length)];
     
-	alert ("Hello, " + upperCase.toUpperCase() + lowerCase.toLowerCase() + " you have successfully signed up for " + select + "." + " You have an appointment for " + random + " at " + randomTime + ".");
+   alert ("Hello, " + upperCase.toUpperCase() + lowerCase.toLowerCase() + " you have successfully signed up for " + select + "." + " You have an appointment for " + random + " at " + randomTime + ".");
 }
 }
 
 /* jQuery */
 
+$(".body").hide();
 $(document).ready(function() {
    $("#store").on("click", function() {
    $(".body").fadeToggle();
@@ -105,4 +106,7 @@ function Buy_9() {
 audio.play();
    alert("You added Redken Brews Shave Foam to the cart!");
 }
-
+$(".card-text_1").hide();
+ $(".img_1").mouseover(function(){
+       $(".card-text_1").toggle();
+      });

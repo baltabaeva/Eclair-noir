@@ -6,7 +6,6 @@ body{
 
 }
 
-
 .navbar-brand{
 
     font-size: 30px;
@@ -21,13 +20,12 @@ body{
     margin: 40px 80px auto 90px;
     color: #000;
     text-align: center;
-    
 
 }
 .card_1{
 
    width: 18rem;
-   height: 700px;
+   height: 340px;
    margin: 25px 25px auto;
    background-color:#fff;
    border-radius: 10px;
@@ -41,7 +39,7 @@ body{
 }
 .card_2{
    width: 18rem;
-   height: 700px;
+   height: 340px;
    margin: 25px 25px auto;
    background-color:#fff;
    border-radius: 10px;
@@ -56,7 +54,7 @@ body{
 .card_3{
 
    width: 18rem;
-   height: 700px;
+   height: 340px;
    margin: 25px 25px auto;
    background-color: #fff;
    border-radius: 10px;
@@ -100,9 +98,34 @@ body{
 }
 .find{
     text-align: center;
-    margin: 80px 180px 180px 25px;
+    margin: 50px 0  0 -15px;
     float: right;
     color: #fff;
     font-size: 25px;
 
+}
+
+.star_rating{
+  user-select: none;
+  margin: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+ 
+}
+.rating_heading,
+.current_rating{
+  color: white;
+}
+.howWas{
+    color: black;
+    font-size: 30px;
+}
+.star {
+font-size: 3rem;
+color: #000;
+background-color: unset;
+border: none;
+}
+.star:hover{
+  cursor: pointer;
 }

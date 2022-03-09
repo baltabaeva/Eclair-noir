@@ -1,0 +1,47 @@
+{
+  "11123": {
+    "name": "Redken Brews Daily Shampoo",
+    "cost": 5000,
+    "image": "r_1.gif"
+  },
+  "11124": {
+    "name": "Redken Brews Extra Clean Shampoo",
+    "cost": 5000,
+    "image": "r_2.gif"
+  },
+  "11125": {
+    "name": "Redken Brews Daily Shampoo",
+    "cost": 5000,
+    "image": "r_3.gif"
+  },
+  "11126": {
+    "name": "Redken Brews Extra Clean Gel",
+    "cost": 5000,
+    "image": "r_4.gif"
+  },
+  "11127": {
+    "name": "Redken Brews Work Hard Molding",
+    "cost": 4500,
+    "image": "r_5.jpg"
+  },
+  "11128": {
+    "name": "Redken Brews Work Hard Molding",
+    "cost": 4000,
+    "image": "r_6.jpg"
+  },
+  "11129": {
+    "name": "Redken Brews Work Hard Molding",
+    "cost": 4500,
+    "image": "r_7.gif"
+  },
+  "11121": {
+    "name": "Redken Brews Work Hard Molding",
+    "cost": 6000,
+    "image": "r_8.jpg"
+  },
+  "11122": {
+    "name": "Redken Brews Shave Foam",
+    "cost": 5000,
+    "image": "r_9.gif"
+  }
+}
